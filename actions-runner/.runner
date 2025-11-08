@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "VIVEK15",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus11.actions.githubusercontent.com/pFAACY2t1vCeYVxGxGGy7TTWpjilmL8u5te1x2HbJ9Mh6O8K9P/",
+  "gitHubUrl": "https://github.com/VivekSamala/hackathon-usecase",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
