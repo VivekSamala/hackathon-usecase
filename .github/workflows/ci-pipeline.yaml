@@ -2,7 +2,8 @@ name: CI Pipeline
 
 on:
   push:
-    - main
+    branches:
+      - main
 
 env:
   PROJECT_ID: dbs-data-ai-ai-core
@@ -16,7 +17,7 @@ env:
 
 jobs:
   docker-build:
-    runs-on: ['self-hosted', 'Windows', 'X64']
+    runs-on: ubunt-latest
     steps:
       - name: checkout the source code
         uses: actions/checkout@v4
